@@ -1,0 +1,53 @@
+﻿.main-page { color: white }
+	
+.main-page div.text-block {
+	height: 29vh;
+	min-height: 216px;
+	margin-bottom: 20px;
+}
+
+.text-block {
+	font-size: 28pt;
+	padding-left: 10px;
+}
+
+.main-page-splitter { height: 15vh; }
+
+.navbar.navbar-expand-sm tr,
+.navbar.navbar-expand-sm td{
+	cursor: pointer;	
+}
+
+.text-block {
+	display: flex;
+	cursor: pointer;
+}
+
+.text-block span {
+	align-self: flex-end;
+}
+.text-block.central-block {
+	cursor: default;
+	font-size: 32pt;
+	padding-bottom: 10px;
+}
+@media (min-width: 992px) {
+	.text-block.central-block {
+		font-size: 40pt;
+	}
+
+	.text-block {
+		font-size: 36pt;
+		padding-left: 18px;
+	}
+}
+
+@media (min-width: 1300px) {
+	.text-block.central-block {
+		font-size: 50pt;
+	}
+	.text-block {
+		font-size: 45pt;
+		padding-left: 20px;
+	}
+}

@@ -1,0 +1,16 @@
+﻿.cv {
+	color: #323479;
+}
+
+.cv-links {
+	font-size: 20pt;
+}
+
+.cv-container {
+	border: solid 1px lightblue;
+	background: rgba(255, 255, 255, 0.2);
+	font-size: 18pt;
+	padding-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 15px;
+}

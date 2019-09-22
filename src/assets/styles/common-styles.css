@@ -1,0 +1,89 @@
+﻿html {
+	background-image: url('../trash/bg.tif');
+	background-attachment: fixed;
+	background-size: cover
+}
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background: transparent;
+	font-family: 'BloggerSans-Light';
+}
+/* Set padding to keep content from hitting the edges */
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.container { max-width: 90% }
+
+
+
+/* Webfont: BloggerSans-Bold */
+@font-face {
+	font-family: 'BloggerSans-Bold';
+	src: url('../trash/BloggerSans-Bold.eot'); /* IE9 Compat Modes */
+	src: url('../trash/BloggerSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../trash/BloggerSans-Bold.woff') format('woff'), /* Modern Browsers */
+	     url('../trash/BloggerSans-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+	     url('../trash/BloggerSans-Bold.svg#BloggerSans') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: bold;
+	text-rendering: optimizeLegibility;
+}
+
+@font-face {
+	font-family: 'BloggerSans-Light';
+	src: url('../trash/BloggerSans-Light.eot'); /* IE9 Compat Modes */
+	src: url('../trash/BloggerSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../trash/BloggerSans-Light.woff') format('woff'), /* Modern Browsers */
+	     url('../trash/BloggerSans-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+	     url('../trash/BloggerSans-Light.svg#BloggerSans') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: bold;
+	text-rendering: optimizeLegibility;
+}
+
+nav {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	width: 90%;
+	padding: 0 !important;
+	background: transparent
+}
+nav table { width: 100% }
+.shadowed {
+	-webkit-box-shadow: 10px 10px 33px -8px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 33px -8px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 33px -8px rgba(0, 0, 0, 0.75);
+}
+nav .headers td {
+	width: 100px;
+	height: 20px;
+	background: white;
+	cursor: pointer
+}
+nav .headers td:hover:not([back]), nav .headers td.active { background: #e19f1a !important; }
+
+nav td a {
+	font-size: 24pt;
+	color: black !important;
+	text-decoration: none !important;
+}
+
+nav td.active { visibility: visible !important }
+nav .texts td {
+	background: transparent
+}
+.shared-header {
+	font-size: 24pt;
+}
+@media (min-width: 992px) {
+	.container { max-width: 80% }
+	nav { width: 80% }
+}
+@media (min-width: 1300px) {
+	.container { max-width: 70% }
+	nav { width: 70% }
+}
